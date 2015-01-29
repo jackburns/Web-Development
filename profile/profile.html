@@ -1,0 +1,107 @@
+<!DOCTYLE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>jburns Asignment 2</title>
+        
+        <link rel="stylesheet" type="text/css" href="profile.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">OnlineU</a>
+        <button type="button" class="navbar-toggle collapsed">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <ul class="nav navbar-nav navbar-collapse collapse" id="main-nav">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Catalog</a>
+            </li>
+            <li class="active">
+                <a href="#">Profile</a>
+            </li>
+        </ul>
+        <ul id="leftnav" class="nav navbar-nav navbar-collapse collapse">
+            <li>
+                <a href="#">Logout</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <main>
+            <h1>Profile</h1>
+            <hr />
+
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="inputFirstName" class="control-label col-sm-2 col-md-2">First Name</label>
+                    <div class="col-sm-10 col-md-10">
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputLastName" class="control-label col-sm-2 col-md-2">Last Name</label>
+                    <div class="col-sm-10 col-md-10">
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="control-label col-sm-2 col-md-2">Email</label>
+                    <div class="col-sm-10 col-md-10" >
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label col-sm-2 col-md-2">First Name</label>
+                    <div class="col-sm-10 col-md-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </div>
+                </div>
+            </form>
+
+            <h2>Courses Created</h2>
+            <table class="table table-striped">
+                <thead>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Created</th>
+                    <th><i class="plus"></i></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>java 123</td>
+                        <td>Java</td>
+                        <td>1/18/2015</td>
+                        <td><i class="edit"></i>
+                    </tr>
+                    <tr>
+                        <td>java 234</td>
+                        <td>Java</td>
+                        <td>1/18/2015</td>
+                        <td><i class="edit"></i>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
